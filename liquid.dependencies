@@ -6,13 +6,13 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "ls",
+    "remote": "lsd",
     "repository": "android_device_motorola_qcom-common",
     "target_path": "device/motorola/qcom-common",
     "revision": "kitkat"
   },
   {
-    "remote": "ls",
+    "remote": "lsd",
     "repository": "android_kernel_motorola_msm8960-common",
     "target_path": "kernel/motorola/msm8960-common",
     "revision": "kitkat"

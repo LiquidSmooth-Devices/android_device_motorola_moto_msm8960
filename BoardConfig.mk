@@ -74,6 +74,9 @@ COMMON_GLOBAL_CFLAGS += -DMR0_CAMERA_BLOB -DQCOM_BSP_CAMERA_ABI_HACK -DDISABLE_H
 TARGET_QCOM_DISPLAY_VARIANT := caf
 BOARD_EGL_CFG := $(LOCAL_PATH)/config/egl.cfg
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Custom relese tools for unified devices
 TARGET_RELEASETOOLS_EXTENSIONS := device/motorola/moto_msm8960
 

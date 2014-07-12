@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Utilities
 PRODUCT_PACKAGES += \
+    charge_only_mode \
     mkfs.f2fs \
     fsck.f2fs \
     fibmap.f2fs
@@ -68,11 +69,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DevicePerformanceSettingsHelper \
     sqlite3
-
-# Symlinks
-PRODUCT_PACKAGES += \
-    mbhc.bin \
-    wcd9310_anc.bin
 
 # EGL config
 PRODUCT_COPY_FILES += \
@@ -111,7 +107,8 @@ PRODUCT_PACKAGES += \
     init.mmi.boot.sh \
     init.mmi.touch.sh \
     init.qcom.post_boot.sh \
-    init.qcom.sh
+    init.qcom.sh \
+    init.qcom.wifi.sh
 
 # Ramdisk overrides
 PRODUCT_COPY_FILES += \

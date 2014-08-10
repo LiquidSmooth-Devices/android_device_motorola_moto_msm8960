@@ -78,6 +78,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 # Camera
 TARGET_PROVIDES_CAMERA_HAL := true
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Graphics
 TARGET_QCOM_DISPLAY_VARIANT := caf
 BOARD_EGL_CFG := $(LOCAL_PATH)/config/egl.cfg

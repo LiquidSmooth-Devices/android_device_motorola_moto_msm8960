@@ -94,6 +94,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/motorola/moto_msm8960
 # Assert
 TARGET_OTA_ASSERT_DEVICE := moto_msm8960,xt907,scorpion_mini,smq,xt926,vanquish
 
+# Liquid stuff
+LIQUID_CHANGELOG := true
+LIQUIFY := true
+
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
